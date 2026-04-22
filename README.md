@@ -1,6 +1,6 @@
-# 🎓 SRM AP Alumni Portal with AI Assistant
+# 🎓 Alumni Management System
 
-An intelligent Alumni Management System powered by an AI chatbot that enables users to explore alumni, events, jobs, and connect seamlessly.
+An intelligent Alumni Management System powered by a database based chatbot that enables users to explore alumni, events, jobs, and connect seamlessly.
 
 🔗 **Live Demo:**  
 👉 https://alumni-management-system-one.vercel.app/
@@ -12,11 +12,12 @@ An intelligent Alumni Management System powered by an AI chatbot that enables us
 This platform provides a centralized ecosystem for alumni interaction:
 
 - 🔍 Smart alumni search  
-- 🤖 AI-powered conversational assistant  
+- 🤖 AI - assisted chatbot
 - 💬 Real-time chat system  
-- 📅 Event and job management  
+- 📅 Event and job management
+- 💖 Donation System 
 
-The integrated chatbot enhances user experience by retrieving live database results conversationally.
+The chatbot is an AI-assisted conversational interface that understands user queries and dynamically retrieves relevant data from the backend database. It combines natural language processing with structured database queries to provide accurate and context-aware responses.
 
 ---
 
@@ -31,16 +32,15 @@ The integrated chatbot enhances user experience by retrieving live database resu
   - Batch year
   - Company
   - Location
-  - Salary range  
 
 ---
 
-### 🤖 AI Chatbot Assistant
-- ChatGPT-style conversational interface  
-- Fetches real-time data from backend  
-- Context-aware responses  
-- Supports follow-up questions  
-- Displays results inside chat  
+### 🤖 AI-Assisted Chatbot
+- Conversational search interface for interacting with system data  
+- Understands user queries and maps them to dynamic database filters  
+- Retrieves real-time information from backend APIs  
+- Supports contextual follow-up queries  
+- Presents results (alumni, events, jobs) in an interactive chat format   
 
 #### Example Queries
 - Find alumni from SEAS 2021  
@@ -102,15 +102,16 @@ Each includes:
 ### 🔐 Authentication
 - Secure login system  
 - Session handling  
-- Role-based access  
+- Role-based access for alumni and students 
 
 ---
 
 ## 🧠 AI Capabilities
-- Context-aware conversations  
-- Dynamic query processing  
-- Structured responses  
-- Real-time database fetching  
+- Natural language-based query understanding  
+- Dynamic mapping of user input to database filters  
+- Context-aware conversational flow  
+- Real-time data retrieval from backend APIs  
+- Structured and interactive response generation  
 
 ---
 
@@ -128,10 +129,7 @@ Each includes:
 
 ### Database
 - MySQL  
-
-### AI Logic
-- Context-based chatbot engine  
-- Dynamic filtering  
+ 
 
 ---
 
@@ -140,34 +138,72 @@ Each includes:
 ```bash
 alumni-portal/
 │
-├── backend/
-│   ├── routes/
-│   ├── uploads/
-│   ├── utils/
-│   ├── app.py
-│   ├── config.py
-│   ├── models.py
-│   ├── create_db.py
-│   ├── seed.py
-│   ├── requirements.txt
-│   ├── Procfile
-│   ├── .env
-│   └── .env.example
+├── backend/                     
+│   ├── routes/                 
+│   ├── utils/                  
+│   ├── uploads/                
+│   │
+│   ├── app.py                  
+│   ├── config.py               
+│   ├── models.py               
+│   ├── create_db.py            
+│   ├── seed.py                 
+│   │
+│   ├── requirements.txt        
+│   ├── Procfile                
+│   ├── .env                    
+│   └── .env.example            
 │
-├── src/
-│   ├── components/
-│   ├── pages/
-│   │   └── About/
-│   ├── assets/
-│   ├── context/
-│   ├── utils/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+├── public/                     
+├── dist/                       
+├── server/                     
 │
-├── public/
+├── src/                        
+│   ├── assets/                
+│   ├── context/               
+│   ├── utils/                 
+│
+│   ├── components/            
+│   │   ├── AchieversSection.jsx
+│   │   ├── Chatbot.jsx
+│   │   ├── EventsSection.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Layout.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ThemeToggle.jsx
+│   │   ├── ViceChancellorCard.jsx
+│   │   ├── ViceChancellorMessage.jsx
+│   │   └── ViceChancellorPreview.jsx
+│
+│   ├── pages/                 
+│   │   ├── Home.jsx
+│   │   ├── AlumniDirectory.jsx
+│   │   ├── AlumniChat.jsx
+│   │   ├── Events.jsx
+│   │   ├── Jobs.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Donation.jsx
+│   │   ├── SchoolDashboard.jsx
+│   │   ├── SchoolPortal.jsx
+│   │   ├── ViceChancellorFullMessage.jsx
+│   │
+│   │   └── About/             
+│   │       ├── AdvisoryBoard.jsx
+│   │       ├── CoreCommittee.jsx
+│   │       ├── MessageAD.jsx
+│   │       └── VisionMission.jsx
+│
+│   ├── App.jsx                
+│   ├── main.jsx               
+│   └── index.css             
+│
 ├── index.html
 ├── package.json
+├── tailwind.config.js
+├── vite.config.js
 └── vercel.json
 ```
 ---
@@ -198,7 +234,7 @@ python app.py
 
 ## 📊 Core Modules
 - Alumni Directory
-- AI Chatbot
+- AI-Assisted Chatbot
 - Events
 - Jobs
 - Chat System
