@@ -7,6 +7,7 @@ An intelligent Alumni Management System powered by an AI chatbot that enables us
 
 
 🚀 Overview
+```
 
 This platform provides a centralized ecosystem for alumni interaction:
 
@@ -16,6 +17,7 @@ This platform provides a centralized ecosystem for alumni interaction:
 📅 Event and job management
 
 The integrated chatbot enhances user experience by retrieving live database results conversationally.
+```
 
 
 ✨ Features
@@ -153,20 +155,28 @@ alumni-portal/
 ⚙️ Installation & Setup
 
 1️⃣ Clone Repository
+```
 git clone https://github.com/ayushiyadav8421/Alumni-Management-System.git
 cd Alumni-Management-System
+```
 
 2️⃣ Run Frontend
+```
 npm install
 npm run dev
+```
 
 3️⃣ Run Backend
+```
 cd backend
 pip install -r requirements.txt
 python app.py
+```
 
 4️⃣ Open Application
+```
 https://alumni-management-system-one.vercel.app/
+```
 
 📊 Core Modules
 Alumni Directory
