@@ -1,125 +1,143 @@
-#🎓 SRM AP Alumni Portal with AI Assistant
+# 🎓 SRM AP Alumni Portal with AI Assistant
 
 An intelligent Alumni Management System powered by an AI chatbot that enables users to explore alumni, events, jobs, and connect seamlessly.
 
-🔗 Live Demo:
+🔗 **Live Demo:**  
 👉 https://alumni-management-system-one.vercel.app/
 
+---
 
-##🚀 Overview
+## 🚀 Overview
 
--This platform provides a centralized ecosystem for alumni interaction:
+This platform provides a centralized ecosystem for alumni interaction:
 
--🔍 Smart alumni search
--🤖 AI-powered conversational assistant
--💬 Real-time chat system
--📅 Event and job management
+- 🔍 Smart alumni search  
+- 🤖 AI-powered conversational assistant  
+- 💬 Real-time chat system  
+- 📅 Event and job management  
 
 The integrated chatbot enhances user experience by retrieving live database results conversationally.
 
+---
 
-##✨ Features
+## ✨ Features
 
-##👩‍🎓 Alumni Directory
--Add & manage alumni profiles
--Profile photo upload
--Salary displayed in LPA format
--Advanced filtering:
-    -School (SEAS, ESLA, PSB)
-    -Batch year
-    -Company
-    -Location
-    -Salary range
+### 👩‍🎓 Alumni Directory
+- Add & manage alumni profiles  
+- Profile photo upload  
+- Salary displayed in LPA format  
+- Advanced filtering:
+  - School (SEAS, ESLA, PSB)
+  - Batch year
+  - Company
+  - Location
+  - Salary range  
 
-##🤖 AI Chatbot Assistant
+---
 
--ChatGPT-style conversational interface
--Fetches real-time data from backend
--Context-aware responses
--Supports follow-up questions
--Displays results inside chat
+### 🤖 AI Chatbot Assistant
+- ChatGPT-style conversational interface  
+- Fetches real-time data from backend  
+- Context-aware responses  
+- Supports follow-up questions  
+- Displays results inside chat  
 
-###Example Queries
--Find alumni from SEAS 2021
--Show top salary alumni
--Show upcoming events
--Jobs available
--How to register
--Contact information
+#### Example Queries
+- Find alumni from SEAS 2021  
+- Show top salary alumni  
+- Show upcoming events  
+- Jobs available  
+- How to register  
+- Contact information  
 
-##💬 Alumni Chat System
--One-to-one messaging
--Smooth UI with auto-scroll
--Real-time communication
+---
 
-##📅 Event Management
--Add and manage events
--View upcoming events
--School-specific filtering
+### 💬 Alumni Chat System
+- One-to-one messaging  
+- Smooth UI with auto-scroll  
+- Real-time communication  
 
-##💼 Jobs & Placements
--Alumni job postings
--Job listings with company & location
+---
 
-##🏫 School-Based System
+### 📅 Event Management
+- Add and manage events  
+- View upcoming events  
+- School-specific filtering  
 
--Separate dashboards for:
--SEAS (Engineering & Sciences)
--ESLA (Liberal Arts)
--PSB (Business School)
+---
+
+### 💼 Jobs & Placements
+- Alumni job postings  
+- Job listings with company & location  
+
+---
+
+### 🏫 School-Based System
+Separate dashboards for:
+- SEAS (Engineering & Sciences)  
+- ESLA (Liberal Arts)  
+- PSB (Business School)  
 
 Each includes:
--Alumni Directory
--Events
--Chat
--Jobs
+- Alumni Directory  
+- Events  
+- Chat  
+- Jobs  
 
+---
 
-##📂 File Uploads
+### 📂 File Uploads
 
-###Supported formats:
--JPG / PNG
--PDF / DOC
+**Supported formats:**
+- JPG / PNG  
+- PDF / DOC  
 
-###Used for:
+**Used for:**
+- Profile images  
+- Event uploads  
+- Contact forms  
 
--Profile images
--Event uploads
--Contact forms
+---
 
-##🔐 Authentication
+### 🔐 Authentication
+- Secure login system  
+- Session handling  
+- Role-based access  
 
--Secure login system
--Session handling
--Role-based access
+---
 
-##🧠 AI Capabilities
--Context-aware conversations
--Dynamic query processing
--Structured responses
--Real-time database fetching
+## 🧠 AI Capabilities
+- Context-aware conversations  
+- Dynamic query processing  
+- Structured responses  
+- Real-time database fetching  
 
-##🛠 Tech Stack
-###Frontend
--React.js
--Tailwind CSS
--Vite
--JavaScript
+---
 
-###Backend
--Flask / Node.js
--REST APIs
+## 🛠 Tech Stack
 
-###Database
--MySQL
+### Frontend
+- React.js  
+- Tailwind CSS  
+- Vite  
+- JavaScript  
 
-###AI Logic
--Context-based chatbot engine
--Dynamic filtering
+### Backend
+- Flask / Node.js  
+- REST APIs  
 
+### Database
+- MySQL  
 
-##📁 Project Structure
-```
+### AI Logic
+- Context-based chatbot engine  
+- Dynamic filtering  
+
+---
+
+## 📁 Project Structure
+
+```bash
 alumni-portal/
 │
 ├── backend/
@@ -152,54 +170,56 @@ alumni-portal/
 ├── package.json
 └── vercel.json
 ```
+---
 
-##⚙️ Installation & Setup
+# ⚙️ Installation & Setup
 
 1️⃣ Clone Repository
 ```
 git clone https://github.com/ayushiyadav8421/Alumni-Management-System.git
 cd Alumni-Management-System
 ```
-
 2️⃣ Run Frontend
 ```
 npm install
 npm run dev
 ```
-
 3️⃣ Run Backend
 ```
 cd backend
 pip install -r requirements.txt
 python app.py
 ```
-
 4️⃣ Open Application
-```
-https://alumni-management-system-one.vercel.app/
-```
 
-##📊 Core Modules
--Alumni Directory
--AI Chatbot
--Events
--Jobs
--Chat System
+👉 https://alumni-management-system-one.vercel.app/  
 
-##🎯 Purpose
+---
+
+## 📊 Core Modules
+- Alumni Directory
+- AI Chatbot
+- Events
+- Jobs
+- Chat System
+
+--- 
+
+## 🎯 Purpose
 
 This project demonstrates:
 
--Full-stack development
--AI chatbot integration
--Database management
--Authentication systems
--Real-time features
+Full-stack development  
+AI chatbot integration  
+Database management  
+Authentication systems   
+Real-time features 
 
+---
 
-##⭐ Show Your Support
+## ⭐ Show Your Support    
 
-If you like this project:
+If you like this project:  
 
 ⭐ Star the repository  
 🍴 Fork it  
