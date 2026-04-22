@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --uni-green: #2F3E2F;
+    --uni-olive: #5A5F2C;
+    --uni-gold: #C49A3A;
+    
+    --bg-main: #FFFFFF;
+    --bg-section: #F7F7F2;
+    --bg-card: #FFFFFF;
+    
+    --text-main: #1F2933;
+    --text-muted: #4B5563; /* Tailwind gray-600 */
+    --border-color: #E5E7EB;
+  }
+
+  .dark {
+    --uni-green: #5A5F2C; /* In dark mode, primary becomes olive green per requirements */
+    --uni-olive: #2F3E2F;
+    --uni-gold: #C49A3A;
+    
+    --bg-main: #121212;
+    --bg-section: #1B1F1B;
+    --bg-card: #232823;
+    
+    --text-main: #F5F5F5;
+    --text-muted: #9CA3AF; /* Tailwind gray-400 */
+    --border-color: #374151;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
+.premium-card {
+  background-color: var(--bg-card);
+  color: var(--text-main);
+  @apply rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.08)] border transition-all duration-300;
+  border-color: var(--border-color);
+}
+.dark .premium-card {
+  @apply shadow-[0_4px_20px_rgba(0,0,0,0.3)];
+}
+.premium-card:hover {
+  @apply shadow-[0_8px_30px_rgba(0,0,0,0.12)] -translate-y-1;
+}
+.dark .premium-card:hover {
+  @apply shadow-[0_8px_30px_rgba(0,0,0,0.5)];
+}

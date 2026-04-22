@@ -1,0 +1,310 @@
+{
+  "donations": [
+    {
+      "id": 1774451667358,
+      "fullName": "Alumni User",
+      "email": "alumni_user@example.com",
+      "amount": "500",
+      "purpose": "Student emergency fund",
+      "message": "",
+      "timestamp": "2026-03-25T15:14:27.358Z"
+    },
+    {
+      "id": 1774629486823,
+      "fullName": "Muskan",
+      "email": "muskan_pathak@srmap.edu.in",
+      "amount": "70000",
+      "purpose": "Student emergency fund",
+      "message": "",
+      "timestamp": "2026-03-27T16:38:06.823Z"
+    },
+    {
+      "id": 1774764278001,
+      "fullName": "Alumni User",
+      "email": "alumni_user@srmap.edu.in",
+      "amount": "5",
+      "purpose": "Scholarship support",
+      "message": "",
+      "timestamp": "2026-03-29T06:04:38.001Z"
+    }
+  ],
+  "contactMessages": [
+    {
+      "id": 1774502845917,
+      "fullName": "Alice",
+      "organisation": "",
+      "designation": "",
+      "department": "",
+      "officialEmail": "alice@example.com",
+      "personalEmail": "",
+      "mobileNumber": "1234567890",
+      "category": "Alumni Inquiry",
+      "message": "Testing attachment",
+      "attachmentUrl": null,
+      "attachmentName": null,
+      "timestamp": "2026-03-26T05:27:25.917Z"
+    }
+  ],
+  "alumni": [
+    {
+      "id": 1774612357604,
+      "fullName": "Alumni Member",
+      "email": "alumni_member@srmap.edu.in",
+      "password": "Alumni@123",
+      "school": "SEAS",
+      "department": "computer science and engineering",
+      "batchYear": "2021",
+      "companyName": "Microsoft",
+      "jobTitle": "Software Engineer",
+      "location": "Bangalore",
+      "linkedin": "https://www.linkedin.com/in/alumni-member/",
+      "bio": "I am an enthusiastic Alumnus currently working as a Software Engineer.",
+      "salary": 7500000,
+      "profilePhotoUrl": "/uploads/1774612357592-pardhu.jpeg",
+      "timestamp": "2026-03-27T11:52:37.604Z",
+      "phoneNumber": "9000000000"
+    },
+    {
+      "id": 1774724505000,
+      "fullName": "Aradhya Singh",
+      "email": "singh_aradhya@srmap.edu.in",
+      "password": "aradhya@14",
+      "school": "PSB",
+      "department": "computer science and engineering",
+      "batchYear": "2017",
+      "companyName": "Paypal",
+      "jobTitle": "Product Manager",
+      "location": "Hyderabad",
+      "linkedin": "https://www.linkedin.com/in/aradhya-singh-5324b4380?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "bio": "I am Aradhya Singh. currently working in Paypal as Product manager.",
+      "salary": 7500000,
+      "profilePhotoUrl": "/uploads/1774724504991-WhatsApp Image 2026-03-27 at 23.18.38.jpeg",
+      "timestamp": "2026-03-28T19:01:45.000Z",
+      "phoneNumber": "9643278708"
+    },
+    {
+      "id": 1774725204068,
+      "fullName": "Muskan",
+      "email": "muskan_pathak@srmap.edu.in",
+      "password": "Muskan@1205",
+      "school": "ESLA",
+      "department": "BSC",
+      "batchYear": "2016",
+      "companyName": "JP Morgan",
+      "jobTitle": "executive director",
+      "location": "Pune",
+      "linkedin": "https://linkedin.com/in/muskanpathak/",
+      "bio": "I am Muskan. Currently working in JP Morgan as Executive director.",
+      "salary": 8000000,
+      "profilePhotoUrl": "/uploads/1774725204048-image.jpg",
+      "timestamp": "2026-03-28T19:13:24.069Z",
+      "phoneNumber": "+91-9953053938"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1774451619228,
+      "jobTitle": "SOFTWARE ENGINEER INTERN",
+      "companyName": "GOOGLE",
+      "jobType": "Internship",
+      "location": "Hyderabad,Remote",
+      "jobDescription": "Want very intractive and skillfull employees",
+      "applyLink": "https://google/jobs",
+      "postedBy": "Alumni Network",
+      "timestamp": "2026-03-25T15:13:39.228Z"
+    }
+  ],
+  "events": [
+    {
+      "id": 1774502524750,
+      "title": "Final Test Reunion",
+      "type": "reunion",
+      "dateTime": "2026-10-05T12:03",
+      "location": "Auditorium",
+      "description": "Final verification test",
+      "imageUrl": null,
+      "school": "SEAS",
+      "timestamp": "2026-03-26T05:22:04.750Z"
+    },
+    {
+      "id": 1774630068235,
+      "title": "SRM University-AP Alumni Association – Charity & Medical Outreach Program",
+      "type": "campus event",
+      "dateTime": "2026-03-15T09:00",
+      "location": "Y.G. Pakala Village (Tribal Area), AP",
+      "description": "SRM University Alumni Association & the Directorate of Alumni Relations are coming together to provide medical assistance and essential supplies to the local tribal community.",
+      "imageUrl": "/uploads/charity-outreach-poster.png",
+      "school": "SEAS",
+      "timestamp": "2026-03-27T22:20:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1774636245526,
+      "senderId": 1,
+      "receiverId": 1774612357604,
+      "content": "hlo",
+      "senderName": "Alumni User",
+      "timestamp": "2026-03-27T18:30:45.526Z"
+    },
+    {
+      "id": 1774636763851,
+      "senderId": 1,
+      "receiverId": 1774544297940,
+      "content": "hii",
+      "senderName": "Alumni User",
+      "timestamp": "2026-03-27T18:39:23.852Z"
+    },
+    {
+      "id": 1774760487972,
+      "senderId": 1,
+      "receiverId": 1774725204068,
+      "content": "hlo",
+      "senderName": "Alumni User",
+      "timestamp": "2026-03-29T05:01:27.972Z"
+    },
+    {
+      "id": 1774761986633,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "Hello Pardhu!",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:26:26.633Z"
+    },
+    {
+      "id": 1774761987869,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "How are you doing?",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:26:27.869Z"
+    },
+    {
+      "id": 1774762015785,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "Message 3",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:26:55.785Z"
+    },
+    {
+      "id": 1774762016891,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "Message 4",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:26:56.891Z"
+    },
+    {
+      "id": 1774762018217,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "Message 5",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:26:58.217Z"
+    },
+    {
+      "id": 1774762019298,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "Message 7",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:26:59.298Z"
+    },
+    {
+      "id": 1774762065195,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "Testing scroll stability...",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:27:45.195Z"
+    },
+    {
+      "id": 1774762123606,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "hlo",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:28:43.606Z"
+    },
+    {
+      "id": 1774762137633,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "hlo",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:28:57.633Z"
+    },
+    {
+      "id": 1774762597580,
+      "senderId": 1774761949574,
+      "receiverId": 1774724505000,
+      "content": "1",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:36:37.580Z"
+    },
+    {
+      "id": 1774762597604,
+      "senderId": 1774761949574,
+      "receiverId": 1774724505000,
+      "content": "12",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:36:37.604Z"
+    },
+    {
+      "id": 1774762892465,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "hlo",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:41:32.465Z"
+    },
+    {
+      "id": 1774763041426,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "Test message from Muskan",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:44:01.426Z"
+    },
+    {
+      "id": 1774763151161,
+      "senderId": "1774761949574",
+      "receiverId": "1774612357604",
+      "text": "Simulated incoming message",
+      "timestamp": "2026-03-29T05:45:51.161Z"
+    },
+    {
+      "id": 1774763375210,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "hlo",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:49:35.210Z"
+    },
+    {
+      "id": 1774763653859,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "fetch('http://localhost:5000/api/messages', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ senderId: '1774761949574', receiverId: '1774612357604', text: 'Indicator test', timestamp: '11:22' }) }).then(() => console.log('Message sent'))",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T05:54:13.859Z"
+    },
+    {
+      "id": 1774764059589,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "hlo",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T06:00:59.589Z"
+    },
+    {
+      "id": 1774764072811,
+      "senderId": 1774761949574,
+      "receiverId": 1774612357604,
+      "content": "hii",
+      "senderName": "Muskan",
+      "timestamp": "2026-03-29T06:01:12.811Z"
+    }
+  ]
+}
